@@ -11,11 +11,11 @@
 
 ## 使用
 
-### 本地编辑（推荐）
+### 本地编辑
 
 - 安装 VS Code，以及 Typst LSP 和 vscode-pdf 插件。
-- 打开 `resume_gne.typ` 文件，按下 `Ctrl + K V` 快捷键后即可显示与编辑。
-- 按下 `Shift + Ctrl + P` 后执行 `Typst: Export the currently open file as PDF` 即可导出 PDF 文件。
+- 可对 Typst LSP 拓展进行专门设置，在`Export Pdf`项中修改编译时间（保存时、编辑时等）。
+
 
 ### 背景图
 背景采用 Photoshop 单独制作，当然模板也在 materials 文件夹内，可以根据需要修改成你想要的学校。
