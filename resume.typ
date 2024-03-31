@@ -231,7 +231,7 @@ cell(height:100%)[#h(2em)简短的个人陈述，讲述个人的学科专业、�
   cell[*技术框架*],
   cell[PyTorch, Tensorflow, Git, MySQL],
   cell[*专业工具*],
-  cell[Photoshop, Davinci Resolve, Premiere, Latex],
+  cell[Photoshop, Premiere, Latex],
   cell[*语言能力*],
   cell[英语(CET6 XXX｜TOFEL XXX｜IELTS XXX) 普通话（XXX）],
   )
