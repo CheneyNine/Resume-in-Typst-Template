@@ -1,40 +1,27 @@
-# Chinese Resume in Typst
+# CQU Resume Template in Typst
 
-使用 Typst 编写的中文简历.
+使用 Typst 编写的简历模板.
 
-样式上, 参考了 [liweitianux/resume](https://github.com/liweitianux/resume) 与 [uniquecv](https://github.com/dyinnz/uniquecv). 同时也参考了一部分 [uniquecv-typst](https://github.com/gaoachao/uniquecv-typst) 的写法.
+代码上，以[OrangeX4](https://github.com/OrangeX4/Chinese-Resume-in-Typst) 所提供的模板为基础，增加了一定的行距控制，丰富了图标内容。同时也参考了一部分Typst的[中文手册](https://typst-doc-cn.github.io/docs/tutorial/).
 
-语法上, 基于以下 Typst 的设计原则编写 (简洁一致与组合原则):
-
-> - **Simplicity through Consistency:** If you know how to do one thing in Typst, you should be able to transfer that knowledge to other things. If there are multiple ways to do the same thing, one of them should be at a different level of abstraction than the other. E.g. it's okay that `= Introduction` and `#heading[Introduction]` do the same thing because the former is just syntax sugar for the latter.
-> - **Power through Composability:** There are two ways to make something flexible: Have a knob for everything or have a few knobs that you can combine in many ways. Typst is designed with the second way in mind. We provide systems that you can compose in ways we've never even thought of. TeX is also in the second category, but it's a bit low-level and therefore people use LaTeX instead. But there, we don't really have that much composability. Instead, there's a package for everything (\usepackage{knob}).
+功能与外观上，参考了[doubleZ](https://github.com/doubleZ0108)的个人简历作品，非常感谢大佬的耐心指导.
 
 
 ## 使用
 
-### 在线编辑
-
-可以使用 Typst 的 Web App,
-
-模板链接: https://typst.app/project/rw1SLr0IIZZnCrkrsypRQF
-
 
 ### 本地编辑（推荐）
 
-- 安装 VS Code，以及 Typst LSP 和 Typst Preview 插件。
-- 打开 `resume.typ` 文件，按下 `Ctrl + K V` 快捷键后即可显示与编辑。
+- 安装 VS Code，以及 Typst LSP 和 vscode-pdf 插件。
+- 打开 `resume_gne.typ` 文件，按下 `Ctrl + K V` 快捷键后即可显示与编辑。
 - 按下 `Shift + Ctrl + P` 后执行 `Typst: Export the currently open file as PDF` 即可导出 PDF 文件。
 
 
 ## 效果
 
-包含照片:
 
-![](examples/resume-with-photograph.jpg)
+![](materials/resume.jpg)
 
-不包含照片:
-
-![](examples/resume-without-photograph.jpg)
 
 
 ## 示例
