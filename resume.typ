@@ -43,7 +43,7 @@
   left: 1cm,
   right: 1cm,
   // 如果不需要头像，则将下面的参数注释或删除
-  photograph: "photo.JPG",
+  photograph: "photo.jpg",
   backgroundImage: "CQUresumebg.jpg",
   photographWidth: 5.5em,
   gutterWidth: 2em,
